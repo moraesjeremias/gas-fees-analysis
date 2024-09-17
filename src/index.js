@@ -27,7 +27,7 @@ async function fetchGasFees(txHashes) {
     }
   }
 
-  fs.writeFile("output.json", JSON.stringify(results, null, 2), (err) => {
+  fs.writeFile("./output/result.json", JSON.stringify(results, null, 2), (err) => {
     if (err) {
       console.error("Error writing to output.json:", err);
     } else {
