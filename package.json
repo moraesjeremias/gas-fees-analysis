@@ -1,0 +1,16 @@
+{
+  "name": "gas-fee-analysis",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "6.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.4"
+  }
+}
